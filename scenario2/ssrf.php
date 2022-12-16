@@ -6,6 +6,7 @@
 </form>
 
 <?php
+// Si on soumet "file:///etc/passwd" par exemple on peut voir le contenu du fichier passwd du serveur
 if (isset($_POST['sub'])){
     $url = $_POST['url'];
     if(!empty($url)){
